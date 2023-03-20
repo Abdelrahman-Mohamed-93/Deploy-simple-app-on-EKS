@@ -6,6 +6,11 @@ A small web app implemented using Python & MySQL that allows users to create acc
 - Dynamodb table with the name specified in the backend.tf file & a partition key named LockID with type of String
 - Key pair named Jenkins.pem
 
+## Clone the project's repo
+```bash
+  git clone https://github.com/Abdelrahman-Mohamed-93/Deploy-simple-app-on-EKS.git
+```
+
 ## Infrastructure Creation
 - Creating the necessary infrastructure using terraform:
 ```bash
